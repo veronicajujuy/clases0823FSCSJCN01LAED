@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 12px;
+}
+
+header {
+  background-color: #eac926;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-hamburguesa {
+  display: inline-block;
+  background-color: #1259c3;
+}
+
+.icono-hamburguesa {
+  color: #fff;
+}
+
+.titulo-seccion {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+.descuento,
+.descripcion {
+  font-size: 16px;
+}
+
+#logo-encabezado {
+  width: 150px;
+}
+
+.seccion-pie {
+  text-align: center;
+}
+
+.titulo-pie {
+  color: #4c4c4c;
+}
+
+.parrafo-pie {
+  color: #666;
+}
+
+.icono {
+  color: #1259c3;
+  font-size: 30px;
+}
