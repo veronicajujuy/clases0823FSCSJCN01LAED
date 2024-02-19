@@ -144,6 +144,14 @@ main section article i {
   border: 1px solid #39b54a;
   background-color: #fff;
   border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  transition: transform 0.75s;
+}
+
+main section article i:hover {
+  transform: rotate(-90deg);
 }
 
 main section h3 {
@@ -154,6 +162,7 @@ main section h3 {
   width: 100%;
   border-top: 1px solid #ebebeb;
   padding: 15px;
+  position: relative;
 }
 
 .products {
