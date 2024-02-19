@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="logo">
+          <img
+            src="images/logo-mercado-liebre.svg"
+            alt="Logo de MercadoLiebre"
+          />
+        </div>
+        <div class="form" action="#" method="GET">
+          <div class="input">Buscar productos, marcas y más</div>
+          <div class="submit"><i class="fa fa-search"></i></div>
+        </div>
+        <p>
+          <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta
+          de crédito
+        </p>
+      </div>
+      <nav>
+        <ul class="nav1">
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="nav2">
+          <li>
+            <a href="/register"
+              >Creá tu cuenta <i class="far fa-id-card"></i
+            ></a>
+          </li>
+          <li>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+        <i class="fa fa-bars burger"></i>
+      </div>
+    </header>
+    <main>
+      <h2>Registro</h2>
+      <form action="">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" />
+        <label>Apellido:</label>
+        <input type="text" name="apellido" />
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Contraseña:</label>
+        <input type="password" name="password" />
+        <label>Edad:</label>
+        <input type="number" name="edad" />
+        <label>Pais:</label>
+        <select name="pais">
+          <option value="argentina">Argentina</option>
+          <option value="bolivia">Bolivia</option>
+          <option value="chile">Chile</option>
+          <option value="colombia">Colombia</option>
+          <option value="peru">Peru</option>
+          <option value="panama" selected>Panama</option>
+        </select>
+        <br />
+        <label>Genero:</label>
+        <label>Femenino:</label>
+        <input type="radio" name="genero" value="femenino" />
+        <label>Masculino:</label>
+        <input type="radio" name="genero" value="masculino" />
+        <label>No deseo informar:</label>
+        <input type="radio" name="genero" value="noinforma" />
+        <br />
+        <label>Condiciones:</label>
+        <label>Acepto las condiciones del sitio:</label>
+        <input type="checkbox" name="condiciones" value="acepto" />
+        <label>Suscribirme a una newsletter:</label>
+        <input type="checkbox" name="condiciones" value="suscribir" />
+        <button type="reset">Borrar</button>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
