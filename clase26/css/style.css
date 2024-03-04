@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.destacado {
+  background-color: teal;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+.destacado2 {
+  background-color: rgb(0, 23, 128);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  margin: 15px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.item {
+  list-style: none;
+  color: teal;
+  font-weight: 700;
+}
+
+.navbar-item {
+  color: orangered;
+}
+
+.titulo2 {
+  color: teal;
+  text-align: center;
+}
+.contenedor-boton {
+  width: 90%;
+  text-align: end;
+  margin: 50px;
+}
+.boton {
+  padding: 15px 25px;
+  border: none;
+  background-color: rgb(9, 74, 74);
+  color: #fff;
+  border-radius: 15px;
+}
+
+.boton:hover {
+  background-color: rgb(10, 43, 43);
+}
