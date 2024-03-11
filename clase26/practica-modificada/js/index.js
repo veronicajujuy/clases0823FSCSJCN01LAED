@@ -32,3 +32,12 @@ function darkMode(body, contenedor, icono, botonLogin) {
   icono.classList.remove("icon-dark");
   botonLogin.classList.remove("boton-dark");
 }
+// login
+let form = document.querySelector("form");
+let nombre = document.querySelector("#usuario");
+let password = document.querySelector("#pass");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  localStorage.setItem("nombre", nombre.value);
+});
